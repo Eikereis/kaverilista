@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilistat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <button onclick="v1()">Versio 1</button>
+        <button onclick="v2()">Versio 2</button>
+    </header>
+    <div class="container">
+        <div id="Version1">
+            <h1>Kaverilista V1</h1>
+            <form onsubmit="event.preventDefault(); Kaverilista_V1();">
+                <p>Lisää 10 kaveria</p> 
+                <button type="submit" class="fancybutton">Aloita</button>
+            </form> 
+            <p id="demo"></p>
+        </div>
+        <div id="Version2">
+            <h1>Kaverilista V2</h1>
+            <form id="form2" onsubmit="event.preventDefault();">
+                <input id="V2_input"> 
+                <button type="button" onclick="v2_add()">Lisää</button>
+                <button type="button" onclick="v2_delete()">Poista</button>
+                <button type="button" onclick="v2_sort()">Järjestä</button>
+            </form>
+            <p id="V2_list"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+body {
+  font-family: Verdana, Geneva;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+}
+
+button {
+    border-radius: 5%;
+    border-color:#333;
+    border-width: 2.5px;
+    font-family: Verdana, Geneva;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+

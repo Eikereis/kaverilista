@@ -1,0 +1,9 @@
+kaverilista suunitelma:
+
+A) tee ekana htmlssa versio kuvasta. 30m
+b) tee siitä nätti jonki verra 45m
+c) JavaScript toimi 3h
+d) test 20m
+
+
+
